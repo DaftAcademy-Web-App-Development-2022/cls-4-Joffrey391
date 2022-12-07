@@ -2,8 +2,8 @@
   @apply border-t border-ui4 lg:relative lg:mb-28 lg:ml-112 lg:border-t-0 xl:ml-120 min-h-[200px] lg:min-h-[calc(100vh_-_200px)] flex scrollbar-hidden;
 }
 
-.header {
-  @apply bg-ui7 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120 scrollbar-hidden;
+.header .header {
+  @apply bg-ui7 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120 scrollbar-hidden z-10;
 }
 
 .footer {
